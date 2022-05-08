@@ -6,7 +6,7 @@ sugar for associating a logger with `context.Context` objects and retrieving it 
 Zeus uses the "blazing-fast and structured" logging library [zap](https://github.com/uber-go/zap)
 under the hood. By not using `zap` directly, interfaces in your code become less dependent on a
 logging library as you do not need to pass a logger around. Rather, the logger is "silently"
-attached to a context object that is deeply routed in the Go language.
+attached to a context object that is deeply rooted in the Go language.
 
 ## Installation
 
