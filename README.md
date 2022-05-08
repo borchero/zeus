@@ -1,7 +1,8 @@
 # Zeus
 
 Zeus is a very simple utility package for context-based logging. In its core, it provides syntactic
-sugar for associating a logger with `context.Context` objects and retrieving it from the context.
+sugar for associating a logger with `context.Context` objects and retrieving it from these
+contexts.
 
 Zeus uses the "blazing-fast and structured" logging library [zap](https://github.com/uber-go/zap)
 under the hood. By not using `zap` directly, interfaces in your code become less dependent on a
